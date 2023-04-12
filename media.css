@@ -1,0 +1,101 @@
+@media screen and (max-width: 400px) {
+  #navbar {
+    width: 380px !important;
+  }
+  #just {
+    font-size: xx-large !important;
+  }
+  #bj {
+    font-size: 25px !important;
+  }
+  #mj {
+    margin-left: 30px !important;
+  }
+  @media screen and (max-width: 400px) {
+    body {
+      background-color: lightgreen;
+    }
+
+    .maindiv {
+      /* border:solid black 3px ; */
+      height: fit-content;
+      width: fit-content;
+      margin-left: 10px;
+    }
+
+    #tabletop {
+      height: 20px;
+      width: 320px;
+    }
+
+    h2 {
+      margin-left: 0px;
+      font-size: 15px;
+    }
+
+    h1 {
+      margin-left: 0px;
+    }
+
+    #bj {
+      margin-left: 0px;
+      font-size: 20px;
+    }
+
+    #mj {
+      font-family: sans-serif;
+      margin-left: 0px;
+      font-size: large;
+    }
+
+    ul {
+      margin: 0px;
+      font-size: small;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: white;
+    }
+
+    h3 {
+      margin-left: 0px;
+      font-size: large;
+    }
+
+    #logo {
+      height: 40px;
+      width: 40px;
+    }
+
+    #tabletop {
+      height: 30px;
+      width: 315px;
+    }
+
+    #tabletop1 {
+      height: 60px;
+      width: 315px;
+    }
+
+    #resume {
+      font-size: 12px;
+
+      border-radius: 20px;
+      background-color: rgb(238, 88, 88);
+      color: white;
+      width: 60px;
+      height: 25px;
+    }
+  }
+  #map {
+    width: 375px !important;
+    height: 400px !important;
+  }
+  #submitcolor {
+    background-color: aqua;
+    margin-left: 170px;
+    border-radius: 10px;
+  }
+}

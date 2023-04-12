@@ -1,0 +1,125 @@
+.maindiv {
+  /* border: solid black 10px; */
+  height: 2000px;
+  width: 1000px;
+  margin-left: 150px;
+}
+
+.div2 {
+  height: 450x;
+  width: 1100px;
+  background-color: rgb(253, 227, 227);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#resume {
+  font-size: 20px;
+
+  border-radius: 20px;
+  background-color: rgb(238, 88, 88);
+  color: white;
+  width: 120px;
+  height: 50px;
+}
+
+#db {
+  border-radius: 20px;
+  background-color: rgb(238, 88, 88);
+  color: white;
+  width: 150px;
+  height: 50px;
+  margin-left: 50px;
+  font-size: 15px;
+}
+
+#db:hover {
+  background-color: white;
+  color: rgb(238, 88, 88);
+}
+
+#resume:hover {
+  background-color: white;
+  color: rgb(238, 88, 88);
+}
+
+h2 {
+  margin-left: 50px;
+}
+
+#bj {
+  margin-left: 40px;
+  font-size: 60px;
+}
+
+#mj {
+  margin-left: 50px;
+  font-size: large;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  margin-left: 50px;
+}
+
+#hy {
+  margin-left: 100px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+ul {
+  margin-left: 25px;
+  font-size: large;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h3 {
+  margin-left: 50px;
+  font-size: 30px;
+}
+
+a:hover {
+  color: rgb(238, 88, 88);
+}
+
+#just {
+  background: linear-gradient(
+    to right,
+    red 2%,
+    rgb(205, 20, 246) 15%,
+    rgb(181, 90, 222) 1%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: rgb(242, 23, 23);
+  transition: width 0.5s;
+}
+
+a:hover::after {
+  width: 100%;
+}
+#contact {
+  margin-left: 80px;
+}
+#award {
+  margin-left: 80px;
+}
+#academic {
+  margin-left: 80px;
+}
+#about {
+  margin-left: 50px;
+}
